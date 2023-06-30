@@ -49,3 +49,14 @@ sudo sh get-docker.sh
 ```console
 sudo docker run hello-world
 ```
+
+### Rootless
+
+```console
+sudo apt-get install -y uidmap
+```
+
+
+```console
+dockerd-rootless-setuptool.sh install
+```
