@@ -56,7 +56,12 @@ sudo docker run hello-world
 sudo apt-get install -y uidmap
 ```
 
-
 ```console
 dockerd-rootless-setuptool.sh install
 ```
+
+
+### docker compose erro
+
+https://stackoverflow.com/questions/76109195/how-to-fix-docker-login-error-error-saving-credentials
+
